@@ -32,6 +32,47 @@ The `PrimeOwner` contract allows for the ownership to be changed if a prime numb
         - If no divisors are found, returns `true`.
 
 ## Question 2 Code Explaination:
+The `EmployeeRegistree` smart contract allows you to add, update, delete, and retrieve employee information. It manages employees using a unique ID for each employee.
+
+## Contract Details
+
+### State Variables
+- `ID_For_Next_Employee`: Tracks the ID for the next employee to be added.
+- `mapping(uint => Employee) public employeeByID`: Maps an employee's ID to their details.
+
+### Struct
+- `Employee`: Defines the structure of an employee with the following properties:
+  - `uint ID`: The unique identifier for the employee.
+  - `string name`: The name of the employee.
+  - `string position`: The job position of the employee.
+  - `uint salary`: The salary of the employee.
+
+### Events
+- `EmployeeAdded(uint ID, string name, string position, uint salary)`: Emitted when a new employee is added.
+- `EmployeeUpdated(uint ID, string name, string position, uint salary)`: Emitted when an existing employee's details are updated.
+- `EmployeeDeleted(uint ID, string name, string position, uint salary)`: Emitted when an employee is deleted.
+
+### Functions
+
+1. **AddEmployee(string memory _name, string memory _position, uint _salary)**
+    - **Purpose**: Adds a new employee with the given details.
+    - **Emits**: `EmployeeAdded` event with the employee's details.
+
+2. **UpdateEmployee(uint _ID, string memory _name, string memory _position, uint _salary)**
+    - **Purpose**: Updates the details of an existing employee.
+    - **Requirements**: The employee with the given ID must exist.
+    - **Emits**: `EmployeeUpdated` event with the updated details.
+
+3. **DeleteEmployee(uint _ID)**
+    - **Purpose**: Deletes an existing employee.
+    - **Requirements**: The employee with the given ID must exist.
+    - **Emits**: `EmployeeDeleted` event with the deleted employee's details.
+
+4. **GetEmployeeDetails(uint _ID) view public returns (string memory, string memory, uint)**
+    - **Purpose**: Retrieves the details of an employee by their ID.
+    - **Returns**: The name, position, and salary of the employee.
+    - **Requirements**: The employee with the given ID must exist.
+
 
 
 
