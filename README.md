@@ -72,6 +72,17 @@ The `EmployeeRegistree` smart contract allows you to add, update, delete, and re
     - **Purpose**: Retrieves the details of an employee by their ID.
     - **Returns**: The name, position, and salary of the employee.
     - **Requirements**: The employee with the given ID must exist.
+  
+## Screenshots of Question 1 Code execution
+
+![Q1 1](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/3f567204-b100-4081-8367-5751aa1fb11f)
+![Q1 2](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/f79643af-3154-4990-887f-95f5864864e6)
+
+## Screenshots of Question 2 Code execution
+![Q2 1](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/5d760870-7ee9-493f-8f95-035186c4bdc1)
+![Q2 2](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/b08d1519-80ab-48e8-ad34-6e35b5e80d24)
+![Q2 3](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/a5f29f62-3433-483a-88a4-2d44b22ef6e7)
+![Q2 4](https://github.com/DeFi-Unchained-IITK/assignment-2-muskan07821/assets/171270678/0865bdf4-dff6-46a3-8b69-ac48b576e39c)
 
 
 
